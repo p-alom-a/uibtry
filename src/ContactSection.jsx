@@ -93,13 +93,13 @@ const ContactSection = () => {
 
     const animateElements = () => {
       if (titleRef.current) {
-        setTimeout(() => titleRef.current?.classList.add('animate'), 100);
+        setTimeout(() => titleRef.current.classList.add('animate'), 100);
       }
       if (formRef.current) {
-        setTimeout(() => formRef.current?.classList.add('animate'), 300);
+        setTimeout(() => formRef.current.classList.add('animate'), 300);
       }
       if (imageRef.current) {
-        setTimeout(() => imageRef.current?.classList.add('animate'), 500);
+        setTimeout(() => imageRef.current.classList.add('animate'), 500);
       }
     };
 
@@ -113,13 +113,13 @@ const ContactSection = () => {
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: styles }} />
-      <section ref={sectionRef} className="py-12 bg-gray-50">
+      <section ref={sectionRef} className="py-12 bg-blue-50">
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
           <div className="bg-white rounded-3xl shadow-sm border border-gray-100 p-8 lg:p-16">
             
             <div ref={titleRef} className="fade-in-up text-center mb-16">
-              <h2 className="text-4xl lg:text-5xl font-light text-gray-900 mb-6 leading-tight">
-                Contactez <span className="text-blue-900 font-normal">btry formation</span>
+              <h2 className="text-4xl lg:text-5xl font-light text-gray-900 mb-8 leading-tight">
+                Contactez <img src="public/logo.png" alt="btry formation" className="inline-block h-12 lg:h-16 mx-2" />
               </h2>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto font-light">
                 Une question sur nos formations ? Besoin d'un accompagnement personnalisé ? 
@@ -259,14 +259,10 @@ const ContactSection = () => {
               <div ref={imageRef} className="fade-in-right">
                 <div className="relative h-full">
                   <img 
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                    src="public/illustration-contact.png" 
                     alt="Équipe btry formation" 
                     className="w-full h-full object-cover rounded-2xl shadow-xl"
                   />
-                  <div className="absolute bottom-6 left-6 bg-white bg-opacity-90 backdrop-blur-sm rounded-xl p-4">
-                    <div className="text-sm font-medium text-gray-900">Réponse garantie</div>
-                    <div className="text-xs text-gray-600">sous 24h</div>
-                  </div>
                 </div>
               </div>
             </div>

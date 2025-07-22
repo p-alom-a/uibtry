@@ -128,12 +128,12 @@ const AboutSection = () => {
                 </p>
               </div>
               
-              <div ref={imageRef} className="fade-in-right lg:justify-self-end lg:mt-16">
-                <div className="relative max-w-lg">
+              <div ref={imageRef} className="fade-in-right lg:justify-self-end">
+                <div className="relative max-w-lg h-full flex items-start">
                   <img 
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                    src="public/illustration-apropos.png" 
                     alt="Formation professionnelle" 
-                    className="rounded-3xl shadow-xl w-full h-80 object-cover"
+                    className="rounded-3xl shadow-xl w-full h-full object-cover"
                   />
                 </div>
               </div>
