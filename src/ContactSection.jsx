@@ -259,7 +259,7 @@ const ContactSection = () => {
               <div ref={imageRef} className="fade-in-right">
                 <div className="relative h-full">
                   <img 
-                    src="public/illustration-contact.png" 
+                    src="./illustration-contact.png" 
                     alt="Équipe btry formation" 
                     className="w-full h-full object-cover rounded-2xl shadow-xl"
                   />
