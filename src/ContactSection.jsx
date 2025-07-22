@@ -119,7 +119,7 @@ const ContactSection = () => {
             
             <div ref={titleRef} className="fade-in-up text-center mb-16">
               <h2 className="text-4xl lg:text-5xl font-light text-gray-900 mb-8 leading-tight">
-                Contactez <img src="public/logo.png" alt="btry formation" className="inline-block h-12 lg:h-16 mx-2" />
+                Contactez <img src="./logo.png" alt="btry formation" className="inline-block h-12 lg:h-16 mx-2" />
               </h2>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto font-light">
                 Une question sur nos formations ? Besoin d'un accompagnement personnalisé ? 
