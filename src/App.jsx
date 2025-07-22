@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import AboutSection from './AboutSection'
 import AboutSection2 from './AboutSection2'
+import Formations from './Formations'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <>
       {/* <AboutSection /> */}
       <AboutSection2 />
+      <Formations/>
 
         
     </>
