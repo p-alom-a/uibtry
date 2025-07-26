@@ -6,16 +6,15 @@ import AboutSection from './AboutSection'
 import AboutSection2 from './AboutSection2'
 import Formations from './Formations'
 import ContactSection from './ContactSection'
+import Homepage from './Homepage'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      {/* <AboutSection /> */}
-      <AboutSection2 />
-      <Formations/>
-      <ContactSection />
+    <Homepage />
+    
 
         
     </>
