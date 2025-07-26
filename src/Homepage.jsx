@@ -52,7 +52,7 @@ export default function BTRYHero() {
                     <img src="./logotypo-solution.jpg" alt="Solutions" className="h-16" />
                   </div>
                   <p className="text-gray-600 leading-relaxed font-light text-sm mb-4 max-w-sm">
-                    btry est un bureau d'études spécialisé dans la sécurité incendie, l'exploitation et l'optimisation des bâtiments.
+                    btry solution est un bureau d'études spécialisé dans la sécurité incendie, l'exploitation et l'optimisation des bâtiments.
                   </p>
                   <a
                     href="https://btryrefacto.vercel.app/"
